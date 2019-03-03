@@ -53,6 +53,7 @@ System.Collections.Generic/DictionaryTest.cs
 System.Collections.Generic/EqualityComparerTest.cs
 System.Collections.Generic/IListTest.cs
 System.Collections.Generic/ListTest.cs
+System.Collections.ObjectModel/CollectionRangeTest.cs
 System.Collections.ObjectModel/CollectionTest.cs
 System.Collections.ObjectModel/KeyedCollectionTest.cs
 System.Collections.ObjectModel/ReadOnlyCollectionTest.cs
