@@ -48,9 +48,13 @@ namespace MonoTests.System.Collections.ObjectModel
         }
 
         [Test]
+        [ExpectedException(typeof(NotSupportedException))]
         public void Collection_AddRange_ReadOnly_Test()
         {
-            Assert.Fail();
+            int[] baseCollection = new int[] { 1, 2, 3 };
+            Collection<int> collection = new Collection<int>(baseCollection);
+
+            collection.AddRange(new int[] { 4, 5, 6 });
         }
 
         [Test]
